@@ -1,0 +1,119 @@
+K 25
+svn:wc:ra_dav:version-url
+V 109
+/svn/SHTApp_Web/!svn/ver/12969/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking
+END
+AFHTTPSessionManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFHTTPSessionManager.m
+END
+AFURLResponseSerialization.m
+K 25
+svn:wc:ra_dav:version-url
+V 138
+/svn/SHTApp_Web/!svn/ver/10526/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFURLResponseSerialization.m
+END
+AFSecurityPolicy.h
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFSecurityPolicy.h
+END
+AFNetworking.h
+K 25
+svn:wc:ra_dav:version-url
+V 123
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFNetworking.h
+END
+AFSecurityPolicy.m
+K 25
+svn:wc:ra_dav:version-url
+V 127
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFSecurityPolicy.m
+END
+AFURLSessionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 130
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFURLSessionManager.h
+END
+AFURLConnectionOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFURLConnectionOperation.h
+END
+AFHTTPRequestOperationManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/SHTApp_Web/!svn/ver/12937/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFHTTPRequestOperationManager.h
+END
+AFNetworkReachabilityManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFNetworkReachabilityManager.h
+END
+AFURLSessionManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/SHTApp_Web/!svn/ver/12969/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFURLSessionManager.m
+END
+AFURLConnectionOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 135
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFURLConnectionOperation.m
+END
+AFHTTPRequestOperation.h
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFHTTPRequestOperation.h
+END
+AFHTTPRequestOperationManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 141
+/svn/SHTApp_Web/!svn/ver/12969/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFHTTPRequestOperationManager.m
+END
+AFURLRequestSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFURLRequestSerialization.h
+END
+AFNetworkReachabilityManager.m
+K 25
+svn:wc:ra_dav:version-url
+V 139
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFNetworkReachabilityManager.m
+END
+AFHTTPSessionManager.h
+K 25
+svn:wc:ra_dav:version-url
+V 131
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFHTTPSessionManager.h
+END
+AFHTTPRequestOperation.m
+K 25
+svn:wc:ra_dav:version-url
+V 133
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFHTTPRequestOperation.m
+END
+AFURLRequestSerialization.m
+K 25
+svn:wc:ra_dav:version-url
+V 136
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFURLRequestSerialization.m
+END
+AFURLResponseSerialization.h
+K 25
+svn:wc:ra_dav:version-url
+V 137
+/svn/SHTApp_Web/!svn/ver/8435/trunk/ClientCode/iOS_bra01/SmartCommunity/SmartCommunity/ThreeLib/AFNetworking/AFURLResponseSerialization.h
+END

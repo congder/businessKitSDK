@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="DistrictTitleTableViewCell" rowHeight="60" id="KGk-i7-Jjw" customClass="DistrictTitleTableViewCell">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="60"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="59.5"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="实物产品列表" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Zcx-S7-04H">
+                        <rect key="frame" x="25" y="15" width="267" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                        <color key="textColor" red="0.29019607843137252" green="0.29019607843137252" blue="0.29019607843137252" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="points2" translatesAutoresizingMaskIntoConstraints="NO" id="1TC-Um-5DK">
+                        <rect key="frame" x="8" y="16" width="5" height="18"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="18" id="4Is-mf-KNk"/>
+                            <constraint firstAttribute="width" constant="5" id="EvY-Oa-bsk"/>
+                        </constraints>
+                    </imageView>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="9ly-Lg-zvL">
+                        <rect key="frame" x="0.0" y="49.5" width="320" height="10"/>
+                        <color key="backgroundColor" red="0.97647058819999999" green="0.97647058819999999" blue="0.97647058819999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="10" id="CuF-Wg-NsL"/>
+                            <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="10" id="PKX-ZI-6K9"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="1TC-Um-5DK" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-5" id="9T5-tJ-jPN"/>
+                    <constraint firstItem="1TC-Um-5DK" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leadingMargin" id="Eko-lZ-dDj"/>
+                    <constraint firstAttribute="bottom" secondItem="9ly-Lg-zvL" secondAttribute="bottom" id="MA0-Qq-Nve"/>
+                    <constraint firstItem="Zcx-S7-04H" firstAttribute="leading" secondItem="1TC-Um-5DK" secondAttribute="trailing" constant="12" id="MJG-Ka-HS0"/>
+                    <constraint firstAttribute="trailing" secondItem="9ly-Lg-zvL" secondAttribute="trailing" id="Rg4-ko-7xZ"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Zcx-S7-04H" secondAttribute="trailing" constant="20" id="SEv-oA-puD"/>
+                    <constraint firstItem="1TC-Um-5DK" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="5" id="ScA-xY-kXW"/>
+                    <constraint firstAttribute="trailingMargin" secondItem="Zcx-S7-04H" secondAttribute="trailing" constant="20" id="Xrx-Rf-S3Y"/>
+                    <constraint firstItem="Zcx-S7-04H" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="topMargin" constant="3" id="foh-l1-erE"/>
+                    <constraint firstItem="9ly-Lg-zvL" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="kdD-7o-1cr"/>
+                    <constraint firstItem="Zcx-S7-04H" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" constant="-5" id="n3p-ma-gVd"/>
+                </constraints>
+                <variation key="default">
+                    <mask key="constraints">
+                        <exclude reference="ScA-xY-kXW"/>
+                        <exclude reference="SEv-oA-puD"/>
+                        <exclude reference="foh-l1-erE"/>
+                    </mask>
+                </variation>
+            </tableViewCellContentView>
+            <connections>
+                <outlet property="titleLabel" destination="Zcx-S7-04H" id="jCb-xl-bhY"/>
+            </connections>
+            <point key="canvasLocation" x="127" y="36"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="points2" width="5" height="18"/>
+    </resources>
+</document>
