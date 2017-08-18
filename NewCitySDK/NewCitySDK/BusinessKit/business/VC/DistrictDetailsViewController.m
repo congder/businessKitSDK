@@ -44,7 +44,7 @@
 #import "LocalCache.h"
 #import "HStringPool.h"
 #import "CommonUtil.h"
-@interface DistrictDetailsViewController (){//2
+@interface DistrictDetailsViewController (){
     NSMutableArray *dataArray;
     NSMutableArray *menuArray;
     NSMutableArray *allzheNumArray;
@@ -106,7 +106,7 @@
 {
     NSBundle *bundle = [NSBundle bundleWithPath:[[NSBundle bundleForClass:self.class] pathForResource:@"NewCitySDK.framework" ofType:nil]];
 
-   self = [super initWithNibName:@"DistrictDetailsViewController" bundle:bundle];
+    self = [super initWithNibName:@"DistrictDetailsViewController" bundle:bundle];
     
     return self;
 }
@@ -115,17 +115,12 @@
 {
     return [super initWithNibName:nibNameOrNil bundle:nibBundleOrNil];
 }
-- (void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
-//    [self.view setBackgroundColor:[UIColor blueColor]];
-    NSLog(@"第2个2:%@",self.view);
-}
+
 - (void)viewDidLoad
 {
     [super viewDidLoad];
     // _bsDetailSectionDataArray = []
     allzheNumArray = [NSMutableArray array];
-    
     
     //执行次数
     _numCount = 0;

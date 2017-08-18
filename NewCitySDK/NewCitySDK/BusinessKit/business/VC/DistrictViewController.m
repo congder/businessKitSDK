@@ -26,6 +26,7 @@
 #import "DistrictCellV2.h"
 #import "NSString+Addition.h"
 #import "DistrictDetailsViewController.h"
+#import "TestViewController.h"
 #define titleViewH 40
 static int searchItemHeight = 44;
 @interface DistrictViewController ()<UIAlertViewDelegate,UICollectionViewDelegate,UICollectionViewDataSource,UICollectionViewDelegateFlowLayout>
@@ -72,14 +73,8 @@ static int searchItemHeight = 44;
 @property(strong,nonatomic) UICollectionView *collectionView;
 @end
 
-@implementation DistrictViewController//11
+@implementation DistrictViewController
 
-- (void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
-    
-    NSLog(@"第一个1:%@",self.view);
-//    [self.view setBackgroundColor:[UIColor redColor]];
-}
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -89,7 +84,7 @@ static int searchItemHeight = 44;
     
     _lastUpdatedTimeKey =@"Dictrict";
 
-    self.navigationController.automaticallyAdjustsScrollViewInsets = NO;
+//    self.navigationController.automaticallyAdjustsScrollViewInsets = NO;
 }
 
 
@@ -147,15 +142,14 @@ static int searchItemHeight = 44;
 }
 
 - (void)main {
-    
+    [self.view setBackgroundColor:[UIColor redColor]];
     self.view.backgroundColor = [UIColor whiteColor];
     
     self.districtTableView = [UITableView new];
     
     [self.view addSubview:self.districtTableView];
-    _districtTableView.frame = CGRectMake(0, titleViewH, mScreenWidth, mScreenHeight-titleViewH-64);
+    _districtTableView.frame = CGRectMake(0, 0, mScreenWidth, mScreenHeight-titleViewH-64);
     
-   
     if ([mAppUtils hasConnectivity]) {
         [self districStorecategoryRequest];
     }
@@ -535,7 +529,10 @@ static int searchItemHeight = 44;
 - (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath
 {
     [tableView deselectRowAtIndexPath:indexPath animated:YES];
-
+//    TestViewController *vc = [[TestViewController alloc]init];
+//    vc.view.backgroundColor = [UIColor redColor];
+//    [self.navigationController pushViewController:vc animated:YES];
+//    return;
 //    if ([tableView isEqual:_districtTableView]) {
         DistricModel *districModel = dataArray[indexPath.row];
         DistrictDetailsViewController *districtDetailsVC = [DistrictDetailsViewController new];
@@ -562,18 +559,19 @@ static int searchItemHeight = 44;
 }
 
 - (void)updateViewConstraints {
+    NSLog(@"updateViewConstraints");
     if (!self.didSetupConstraints) {
         UIView *superView = self.view;
         MASAttachKeys(superView,  self.districtTableView);
         
         
-        [self.districtTableView mas_makeConstraints:^(MASConstraintMaker *make) {
-            make.top.equalTo(@200);
-            make.left.equalTo(superView);
-            make.right.equalTo(superView);
-            make.bottom.equalTo(superView);
-            //            make.bottom.equalTo(superView).offset(@-50);
-        }];
+//        [self.districtTableView mas_makeConstraints:^(MASConstraintMaker *make) {
+//            make.top.equalTo(@0);
+//            make.left.equalTo(superView);
+//            make.right.equalTo(superView);
+//            make.bottom.equalTo(superView);
+//            //            make.bottom.equalTo(superView).offset(@-50);
+//        }];
         
         self.didSetupConstraints = YES;
     }

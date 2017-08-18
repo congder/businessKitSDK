@@ -28,9 +28,9 @@
 @property (nonatomic,assign) NSInteger             btnFont;
 
 //设置菜单栏高度
-@property (nonatomic,assign) NSInteger             btnViewHeight;
+@property (nonatomic,assign) CGFloat             btnViewHeight;
 
 //设置按钮下划线高度
-@property (nonatomic,assign) NSInteger             btnLineHeight;
+@property (nonatomic,assign) CGFloat             btnLineHeight;
 
 @end

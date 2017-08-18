@@ -23,7 +23,7 @@
     [self cretBtnView];
     
 }
-- (void)setBtnViewHeight:(NSInteger)btnViewHeight {
+- (void)setBtnViewHeight:(CGFloat)btnViewHeight {
     _btnViewHeight = btnViewHeight;
     [self createScroll];
     [self addSubview:self.pageScroll];
@@ -101,7 +101,7 @@
 - (void)scrollVc1 {
     for (int i = 0; i<self.viewControllers.count; i++) {
         UIViewController *vc = self.viewControllers[i];
-        vc.view.frame = CGRectMake(i*[[UIScreen mainScreen] bounds].size.width,0, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height-94);
+        vc.view.frame = CGRectMake(i*[[UIScreen mainScreen] bounds].size.width,0, [[UIScreen mainScreen] bounds].size.width, [[UIScreen mainScreen] bounds].size.height-104);
         [self.pageScroll addSubview:vc.view];
     }
 }

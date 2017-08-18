@@ -45,14 +45,7 @@
 @end
 
 @implementation BusinessViewController
-- (void)viewDidAppear:(BOOL)animated{
-    [super viewDidAppear:animated];
-    
-    NSLog(@"===:%@",self.view);
-//    [self.view setBackgroundColor:[UIColor yellowColor]];
-//    [self.mainview setBackgroundColor:[UIColor cyanColor]];
-    NSLog(@"===:%@",self.mainview);
-}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     
@@ -119,9 +112,9 @@
     [self addChildViewController:district];
     [self addChildViewController:preferent];
     
-    MainView *main = [[MainView alloc] init];
+    MainView *main = [[MainView alloc] initWithFrame:CGRectMake(0, 64,self.view.frame.size.width, self.view.frame.size.height-64)];
     [self.view addSubview:main];
-    main.frame = CGRectMake(0, 0,self.view.frame.size.width, self.view.frame.size.height-64);
+    
     
     self.mainview = main;
     main.btnViewHeight = 40;
